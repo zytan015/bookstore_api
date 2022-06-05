@@ -2,21 +2,29 @@
 
 Creating a bookstore RESTFUL API using JAVA Spring Boot with the following information.
 
-A book has the following fields:
+A **book** has the following fields:
 
 Field	Type/Format	Description
-isbn	string	ISBN of book
-title	String	Book title
-authors	Array of author	Book Author(s)
-year	number / int32	Year of publication
-price	number / double	Price of Book
-genre	string	Genre of Book
 
-An author has the following fields: 
+isbn	string	(ISBN of book)
+
+title	String	(Book title)
+
+authors	Array of author	(Book Author(s))
+
+year	number / int32	(Year of publication)
+
+price	number / double	(Price of Book)
+
+genre	string	(Genre of Book)
+
+An **author** has the following fields: 
 
 Field	Type/Format	Description
-name	string	Author name
-birthday	string/date	Date of birth of Author
+
+name	string	(Author name)
+
+birthday	string/date	(Date of birth of Author)
 
 # **Add Data**
 Data is stored in MySQL. 
